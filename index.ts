@@ -50,6 +50,26 @@ const you: {
     stayed: ['florida-home', 'oman-flat','tokyo-bungalow']
 }
 
+//properties
+const properties : {
+    image: string;
+    title: string;
+    price: number;
+    location: {
+        firstLine: string;
+        city: string;
+        code: number;
+        country: string;
+    };
+    contact: string;
+    isAvailable: boolean;
+}[] = [
+    {
+        
+    }
+]
+
+showReviewTotal(reviews.length[0].name,reviews[0].loyaltyUser)
 
 
 populateUser(you.isReturning, you.firstName)
