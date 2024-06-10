@@ -52,7 +52,7 @@ const you: {
     stayed: ['florida-home', 'oman-flat','tokyo-bungalow']
 }
 
-//properties
+// Array of properties
 const properties : {
     image: string;
     title: string;
